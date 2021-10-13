@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#FF018786"
+    tools:context=".DrinkFragment">
+
+    <!--  Menampilkan nama minuman  -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Es Teh"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!--  Menampilkan gambar minuman  -->
+    <ImageView
+        android:id="@+id/imgDrink"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvName"
+        android:src="@drawable/esteh"
+        android:layout_marginTop="20dp" />
+
+    <!--  Menampilkan deskripsi minuman  -->
+    <TextView
+        android:id="@+id/tvDeskDrink"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDrink"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:text="Es teh atau Teh es adalah teh yang didinginkan dengan es batu. Es teh sering kali ditambahkan rasa seperti melati, dan buah-buahan seperti limun, ceri, dan arbei, atau susu. Es teh adalah minuman yang sering diminum saat siang hari karena suhu udara yang panas. Di warteg, es teh sering diminum selain air dingin."
+        android:textSize="18sp" />
+
+</RelativeLayout>

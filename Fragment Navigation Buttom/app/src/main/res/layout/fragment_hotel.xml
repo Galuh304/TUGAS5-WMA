@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF018786"
+    tools:context=".HotelFragment">
+
+    <!--  Menampilkan gambar hotel  -->
+    <ImageView
+        android:id="@+id/imghotel"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/hotel" />
+
+    <!--  Menampilkan teks hotel  -->
+    <TextView
+        android:id="@+id/tvHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imghotel"
+        android:gravity="center"
+        android:text="Hotel"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!--  Membuat deskripsi hotel -->
+    <TextView
+        android:id="@+id/tvDeskripsihotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHotel"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Welcome to the Phoenix Hotel Yogyakarta MGallery, be immersed in a unique heritage boutique hotel and experience . Enjoy Soekarno Signature a historical stay experience, reminiscent of Indonesia's first President."
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  Membuat menu hotel  -->
+    <item
+        android:id="@+id/nav_hotel"
+        android:icon="@drawable/ic_hotel"
+        android:title="Hotel" />
+
+    <!--  Membuat menu food  -->
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/ic_food"
+        android:title="Food" />
+
+    <!--  Membuat menu drink  -->
+    <item
+        android:id="@+id/nav_drink"
+        android:icon="@drawable/ic_drink"
+        android:title="Drink" />
+
+    <!--  Membuat menu restaurant  -->
+    <item
+        android:id="@+id/nav_restaurant"
+        android:icon="@drawable/ic_restaurant"
+        android:title="Restaurant" />
+
+</menu>

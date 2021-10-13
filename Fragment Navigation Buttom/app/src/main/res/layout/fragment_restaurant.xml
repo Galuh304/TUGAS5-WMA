@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#FF018786"
+    tools:context=".FoodFragment">
+
+    <!--  Menampilkan nama restaurant  -->
+    <TextView
+        android:id="@+id/tvKampoeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Kampoeng Restaurant"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!--  Menampilkan gambar restaurant  -->
+    <ImageView
+        android:id="@+id/imgRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/tvKampoeng"
+        android:src="@drawable/kampoengrestaurant"/>
+
+    <!--  Menampilkan deskripsi restaurant  -->
+    <TextView
+        android:id="@+id/tvRestaurant"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgRestaurant"
+        android:textColor="@color/black"
+        android:text="Kampoeng Restaurant berada di Causeway Bay, Hong Kong, ini menawarkan beragam masakan khas Indonesia. Ada nasi campur rendang, nasi goreng, ayam bakar, hingga gado-gado"
+        android:textSize="18sp" />
+
+</RelativeLayout>
